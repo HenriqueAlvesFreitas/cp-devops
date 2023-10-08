@@ -1,0 +1,35 @@
+
+requisição GET:
+https://snap-web-my-snap-web.azuremicroservices.io/user
+
+
+requisição CREATE:
+http://snap-web-my-snap-web.azuremicroservices.io/registrar
+
+BODY:
+{
+     "nome": "Henrique",
+	 "telefone": "11 959540882",
+	 "email": "teste@gmail.com",
+	 "login": "123",
+	 "senha" : "02072004"
+}
+
+
+requisição DELETE:
+http://snap-web-my-snap-web.azuremicroservices.io/user/delete/{ID}
+
+
+
+requisição UPDATE:
+http://snap-web-my-snap-web.azuremicroservices.io/user/update/{ID}
+
+BODY:
+{
+     "nome": "João Menk",
+	 "telefone": "11 959540882",
+	 "email": "Teste123@gmail.com",
+	 "login": "lvss",
+	 "senha" : "02072004"
+}
+
